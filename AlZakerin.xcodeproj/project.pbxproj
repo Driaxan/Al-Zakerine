@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6663E61D92BF9A003F704C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6663E51D92BF9A003F704C /* AppDelegate.swift */; };
+		5C6663EB1D92BF9A003F704C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6663E91D92BF9A003F704C /* Main.storyboard */; };
+		5C6663F01D92BF9A003F704C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6663EE1D92BF9A003F704C /* LaunchScreen.storyboard */; };
+		5C6663FB1D92BF9B003F704C /* AlZakerinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6663FA1D92BF9B003F704C /* AlZakerinTests.swift */; };
+		5C6664061D92BF9B003F704C /* AlZakerinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6664051D92BF9B003F704C /* AlZakerinUITests.swift */; };
+		5CD706301D9C2D6F0056C2B9 /* AlAyamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7062F1D9C2D6F0056C2B9 /* AlAyamViewController.swift */; };
+		5CD706321D9C2D860056C2B9 /* AlAyamTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706311D9C2D860056C2B9 /* AlAyamTwoViewController.swift */; };
+		5CD706341D9D46600056C2B9 /* MonajatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706331D9D46600056C2B9 /* MonajatViewController.swift */; };
+		5CD706381D9E9DEC0056C2B9 /* candle-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706371D9E9DEC0056C2B9 /* candle-light.jpg */; };
+		5CD7063A1DA2E87F0056C2B9 /* good1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706391DA2E87F0056C2B9 /* good1.jpg */; };
+		5CD706441DA2F0BD0056C2B9 /* good12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706431DA2F0BD0056C2B9 /* good12.jpg */; };
+		5CD706481DA383B10056C2B9 /* white stylize2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706471DA383B10056C2B9 /* white stylize2.jpg */; };
+		5CD7064A1DA386690056C2B9 /* circle_Fotor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706491DA386690056C2B9 /* circle_Fotor.jpg */; };
+		5CD7064C1DA3A6910056C2B9 /* MonajatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7064B1DA3A6910056C2B9 /* MonajatTableViewCell.swift */; };
+		5CD7064F1DA3B1360056C2B9 /* MonajatTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7064E1DA3B1360056C2B9 /* MonajatTwoViewController.swift */; };
+		5CD706511DA3CF860056C2B9 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706501DA3CF860056C2B9 /* circle.png */; };
+		5CD706531DA3D0BD0056C2B9 /* circle222.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD706521DA3D0BD0056C2B9 /* circle222.png */; };
+		5CD706551DA3F3790056C2B9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD706541DA3F3790056C2B9 /* CoreData.framework */; };
+		5CD706571DA68CF50056C2B9 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706561DA68CF50056C2B9 /* PrayerTableViewCell.swift */; };
+		5CD706591DAA88190056C2B9 /* AlAyamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706581DAA88190056C2B9 /* AlAyamTableViewCell.swift */; };
+		5CD7065B1DABD9970056C2B9 /* ZiyaratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7065A1DABD9970056C2B9 /* ZiyaratViewController.swift */; };
+		5CD7065D1DABD9C30056C2B9 /* ZiyaratTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7065C1DABD9C30056C2B9 /* ZiyaratTableViewCell.swift */; };
+		5CD7065F1DABD9E70056C2B9 /* ZiyaratTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7065E1DABD9E70056C2B9 /* ZiyaratTwoViewController.swift */; };
+		5CD706611DAC088F0056C2B9 /* SalawatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706601DAC088F0056C2B9 /* SalawatViewController.swift */; };
+		5CD706631DAC08A30056C2B9 /* SalawatTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706621DAC08A30056C2B9 /* SalawatTwoViewController.swift */; };
+		5CD706651DAC08B70056C2B9 /* SalawatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706641DAC08B70056C2B9 /* SalawatTableViewCell.swift */; };
+		5CD706671DAC2A2C0056C2B9 /* TaaqibatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706661DAC2A2C0056C2B9 /* TaaqibatTableViewCell.swift */; };
+		5CD706691DAC2AA50056C2B9 /* TaaqibatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706681DAC2AA50056C2B9 /* TaaqibatViewController.swift */; };
+		5CD7066B1DAC2AD90056C2B9 /* TaaqibatTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7066A1DAC2AD90056C2B9 /* TaaqibatTwoViewController.swift */; };
+		5CD7066D1DAE9AD70056C2B9 /* DouaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7066C1DAE9AD70056C2B9 /* DouaaViewController.swift */; };
+		5CD7066F1DAE9AE70056C2B9 /* DouaaTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7066E1DAE9AE70056C2B9 /* DouaaTwoViewController.swift */; };
+		5CD706711DAE9AFB0056C2B9 /* DouaaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706701DAE9AFB0056C2B9 /* DouaaTableViewCell.swift */; };
+		5CD706741DB556DD0056C2B9 /* AlyawmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706731DB556DD0056C2B9 /* AlyawmTableViewCell.swift */; };
+		5CD706761DB556FA0056C2B9 /* AlyawmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706751DB556FA0056C2B9 /* AlyawmViewController.swift */; };
+		5CD706781DB5571D0056C2B9 /* AlyawmTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD706771DB5571D0056C2B9 /* AlyawmTwoViewController.swift */; };
+		5CD7067D1DB7A62C0056C2B9 /* NSDate+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD7067C1DB7A62C0056C2B9 /* NSDate+Conversions.swift */; };
+		5CE406D31D9AB780008303D1 /* PrayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE406D21D9AB780008303D1 /* PrayersViewController.swift */; };
+		5CE406D51D9AB7A1008303D1 /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE406D41D9AB7A1008303D1 /* MonthlyViewController.swift */; };
+		5CE406D71D9AB7BA008303D1 /* FavouritsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE406D61D9AB7BA008303D1 /* FavouritsViewController.swift */; };
+		5CE406D91D9AB7CA008303D1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE406D81D9AB7CA008303D1 /* SettingsViewController.swift */; };
+		5CE406E31D9ACECE008303D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE406E21D9ACECE008303D1 /* Assets.xcassets */; };
+		5CE406E51D9B1AB6008303D1 /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE406E41D9B1AB6008303D1 /* Statics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6663F71D92BF9B003F704C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6663DA1D92BF9A003F704C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6663E11D92BF9A003F704C;
+			remoteInfo = AlZakerin;
+		};
+		5C6664021D92BF9B003F704C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6663DA1D92BF9A003F704C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6663E11D92BF9A003F704C;
+			remoteInfo = AlZakerin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C6663E21D92BF9A003F704C /* AlZakerin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlZakerin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6663E51D92BF9A003F704C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C6663EA1D92BF9A003F704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C6663EF1D92BF9A003F704C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6663F11D92BF9A003F704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6663F61D92BF9B003F704C /* AlZakerinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlZakerinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6663FA1D92BF9B003F704C /* AlZakerinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlZakerinTests.swift; sourceTree = "<group>"; };
+		5C6663FC1D92BF9B003F704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6664011D92BF9B003F704C /* AlZakerinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlZakerinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6664051D92BF9B003F704C /* AlZakerinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlZakerinUITests.swift; sourceTree = "<group>"; };
+		5C6664071D92BF9B003F704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD7062F1D9C2D6F0056C2B9 /* AlAyamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlAyamViewController.swift; sourceTree = "<group>"; };
+		5CD706311D9C2D860056C2B9 /* AlAyamTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlAyamTwoViewController.swift; sourceTree = "<group>"; };
+		5CD706331D9D46600056C2B9 /* MonajatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonajatViewController.swift; sourceTree = "<group>"; };
+		5CD706371D9E9DEC0056C2B9 /* candle-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "candle-light.jpg"; sourceTree = "<group>"; };
+		5CD706391DA2E87F0056C2B9 /* good1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good1.jpg; sourceTree = "<group>"; };
+		5CD706431DA2F0BD0056C2B9 /* good12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = good12.jpg; sourceTree = "<group>"; };
+		5CD706471DA383B10056C2B9 /* white stylize2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white stylize2.jpg"; sourceTree = "<group>"; };
+		5CD706491DA386690056C2B9 /* circle_Fotor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = circle_Fotor.jpg; sourceTree = "<group>"; };
+		5CD7064B1DA3A6910056C2B9 /* MonajatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonajatTableViewCell.swift; sourceTree = "<group>"; };
+		5CD7064E1DA3B1360056C2B9 /* MonajatTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonajatTwoViewController.swift; sourceTree = "<group>"; };
+		5CD706501DA3CF860056C2B9 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		5CD706521DA3D0BD0056C2B9 /* circle222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle222.png; sourceTree = "<group>"; };
+		5CD706541DA3F3790056C2B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CD706561DA68CF50056C2B9 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		5CD706581DAA88190056C2B9 /* AlAyamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlAyamTableViewCell.swift; sourceTree = "<group>"; };
+		5CD7065A1DABD9970056C2B9 /* ZiyaratViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiyaratViewController.swift; sourceTree = "<group>"; };
+		5CD7065C1DABD9C30056C2B9 /* ZiyaratTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiyaratTableViewCell.swift; sourceTree = "<group>"; };
+		5CD7065E1DABD9E70056C2B9 /* ZiyaratTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZiyaratTwoViewController.swift; sourceTree = "<group>"; };
+		5CD706601DAC088F0056C2B9 /* SalawatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalawatViewController.swift; sourceTree = "<group>"; };
+		5CD706621DAC08A30056C2B9 /* SalawatTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalawatTwoViewController.swift; sourceTree = "<group>"; };
+		5CD706641DAC08B70056C2B9 /* SalawatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalawatTableViewCell.swift; sourceTree = "<group>"; };
+		5CD706661DAC2A2C0056C2B9 /* TaaqibatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaaqibatTableViewCell.swift; sourceTree = "<group>"; };
+		5CD706681DAC2AA50056C2B9 /* TaaqibatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaaqibatViewController.swift; sourceTree = "<group>"; };
+		5CD7066A1DAC2AD90056C2B9 /* TaaqibatTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaaqibatTwoViewController.swift; sourceTree = "<group>"; };
+		5CD7066C1DAE9AD70056C2B9 /* DouaaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouaaViewController.swift; sourceTree = "<group>"; };
+		5CD7066E1DAE9AE70056C2B9 /* DouaaTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouaaTwoViewController.swift; sourceTree = "<group>"; };
+		5CD706701DAE9AFB0056C2B9 /* DouaaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouaaTableViewCell.swift; sourceTree = "<group>"; };
+		5CD706731DB556DD0056C2B9 /* AlyawmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlyawmTableViewCell.swift; sourceTree = "<group>"; };
+		5CD706751DB556FA0056C2B9 /* AlyawmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlyawmViewController.swift; sourceTree = "<group>"; };
+		5CD706771DB5571D0056C2B9 /* AlyawmTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlyawmTwoViewController.swift; sourceTree = "<group>"; };
+		5CD7067C1DB7A62C0056C2B9 /* NSDate+Conversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Conversions.swift"; sourceTree = "<group>"; };
+		5CE406D21D9AB780008303D1 /* PrayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrayersViewController.swift; path = ../PrayersViewController.swift; sourceTree = "<group>"; };
+		5CE406D41D9AB7A1008303D1 /* MonthlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
+		5CE406D61D9AB7BA008303D1 /* FavouritsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritsViewController.swift; sourceTree = "<group>"; };
+		5CE406D81D9AB7CA008303D1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5CE406E21D9ACECE008303D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CE406E41D9B1AB6008303D1 /* Statics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6663DF1D92BF9A003F704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD706551DA3F3790056C2B9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663F31D92BF9B003F704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663FE1D92BF9B003F704C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6663D91D92BF9A003F704C = {
+			isa = PBXGroup;
+			children = (
+				5CD706541DA3F3790056C2B9 /* CoreData.framework */,
+				5C6663E41D92BF9A003F704C /* AlZakerin */,
+				5C6663F91D92BF9B003F704C /* AlZakerinTests */,
+				5C6664041D92BF9B003F704C /* AlZakerinUITests */,
+				5C6663E31D92BF9A003F704C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6663E31D92BF9A003F704C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6663E21D92BF9A003F704C /* AlZakerin.app */,
+				5C6663F61D92BF9B003F704C /* AlZakerinTests.xctest */,
+				5C6664011D92BF9B003F704C /* AlZakerinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C6663E41D92BF9A003F704C /* AlZakerin */ = {
+			isa = PBXGroup;
+			children = (
+				5C6663E51D92BF9A003F704C /* AppDelegate.swift */,
+				5CD706751DB556FA0056C2B9 /* AlyawmViewController.swift */,
+				5CD706731DB556DD0056C2B9 /* AlyawmTableViewCell.swift */,
+				5CD706771DB5571D0056C2B9 /* AlyawmTwoViewController.swift */,
+				5CE406D21D9AB780008303D1 /* PrayersViewController.swift */,
+				5CD706561DA68CF50056C2B9 /* PrayerTableViewCell.swift */,
+				5CD7062F1D9C2D6F0056C2B9 /* AlAyamViewController.swift */,
+				5CD706581DAA88190056C2B9 /* AlAyamTableViewCell.swift */,
+				5CD706311D9C2D860056C2B9 /* AlAyamTwoViewController.swift */,
+				5CD706331D9D46600056C2B9 /* MonajatViewController.swift */,
+				5CD7064B1DA3A6910056C2B9 /* MonajatTableViewCell.swift */,
+				5CD7064E1DA3B1360056C2B9 /* MonajatTwoViewController.swift */,
+				5CD7065A1DABD9970056C2B9 /* ZiyaratViewController.swift */,
+				5CD7065C1DABD9C30056C2B9 /* ZiyaratTableViewCell.swift */,
+				5CD7065E1DABD9E70056C2B9 /* ZiyaratTwoViewController.swift */,
+				5CD706601DAC088F0056C2B9 /* SalawatViewController.swift */,
+				5CD706641DAC08B70056C2B9 /* SalawatTableViewCell.swift */,
+				5CD706621DAC08A30056C2B9 /* SalawatTwoViewController.swift */,
+				5CD706681DAC2AA50056C2B9 /* TaaqibatViewController.swift */,
+				5CD706661DAC2A2C0056C2B9 /* TaaqibatTableViewCell.swift */,
+				5CD7066A1DAC2AD90056C2B9 /* TaaqibatTwoViewController.swift */,
+				5CD7066C1DAE9AD70056C2B9 /* DouaaViewController.swift */,
+				5CD706701DAE9AFB0056C2B9 /* DouaaTableViewCell.swift */,
+				5CD7066E1DAE9AE70056C2B9 /* DouaaTwoViewController.swift */,
+				5CE406D41D9AB7A1008303D1 /* MonthlyViewController.swift */,
+				5CE406D61D9AB7BA008303D1 /* FavouritsViewController.swift */,
+				5CE406D81D9AB7CA008303D1 /* SettingsViewController.swift */,
+				5CE406E41D9B1AB6008303D1 /* Statics.swift */,
+				5CD7067B1DB7A5E10056C2B9 /* Extensions */,
+				5CD706721DB555240056C2B9 /* design */,
+				5C6663E91D92BF9A003F704C /* Main.storyboard */,
+				5C6663EE1D92BF9A003F704C /* LaunchScreen.storyboard */,
+				5CE406E21D9ACECE008303D1 /* Assets.xcassets */,
+				5C6663F11D92BF9A003F704C /* Info.plist */,
+			);
+			path = AlZakerin;
+			sourceTree = "<group>";
+		};
+		5C6663F91D92BF9B003F704C /* AlZakerinTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6663FA1D92BF9B003F704C /* AlZakerinTests.swift */,
+				5C6663FC1D92BF9B003F704C /* Info.plist */,
+			);
+			path = AlZakerinTests;
+			sourceTree = "<group>";
+		};
+		5C6664041D92BF9B003F704C /* AlZakerinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6664051D92BF9B003F704C /* AlZakerinUITests.swift */,
+				5C6664071D92BF9B003F704C /* Info.plist */,
+			);
+			path = AlZakerinUITests;
+			sourceTree = "<group>";
+		};
+		5CD706721DB555240056C2B9 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				5CD706431DA2F0BD0056C2B9 /* good12.jpg */,
+				5CD706491DA386690056C2B9 /* circle_Fotor.jpg */,
+				5CD706521DA3D0BD0056C2B9 /* circle222.png */,
+				5CD706471DA383B10056C2B9 /* white stylize2.jpg */,
+				5CD706371D9E9DEC0056C2B9 /* candle-light.jpg */,
+				5CD706391DA2E87F0056C2B9 /* good1.jpg */,
+				5CD706501DA3CF860056C2B9 /* circle.png */,
+			);
+			name = design;
+			sourceTree = "<group>";
+		};
+		5CD7067B1DB7A5E10056C2B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CD7067C1DB7A62C0056C2B9 /* NSDate+Conversions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6663E11D92BF9A003F704C /* AlZakerin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C66640A1D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerin" */;
+			buildPhases = (
+				5C6663DE1D92BF9A003F704C /* Sources */,
+				5C6663DF1D92BF9A003F704C /* Frameworks */,
+				5C6663E01D92BF9A003F704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlZakerin;
+			productName = AlZakerin;
+			productReference = 5C6663E21D92BF9A003F704C /* AlZakerin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6663F51D92BF9B003F704C /* AlZakerinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C66640D1D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerinTests" */;
+			buildPhases = (
+				5C6663F21D92BF9B003F704C /* Sources */,
+				5C6663F31D92BF9B003F704C /* Frameworks */,
+				5C6663F41D92BF9B003F704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6663F81D92BF9B003F704C /* PBXTargetDependency */,
+			);
+			name = AlZakerinTests;
+			productName = AlZakerinTests;
+			productReference = 5C6663F61D92BF9B003F704C /* AlZakerinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6664001D92BF9B003F704C /* AlZakerinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6664101D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerinUITests" */;
+			buildPhases = (
+				5C6663FD1D92BF9B003F704C /* Sources */,
+				5C6663FE1D92BF9B003F704C /* Frameworks */,
+				5C6663FF1D92BF9B003F704C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6664031D92BF9B003F704C /* PBXTargetDependency */,
+			);
+			name = AlZakerinUITests;
+			productName = AlZakerinUITests;
+			productReference = 5C6664011D92BF9B003F704C /* AlZakerinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6663DA1D92BF9A003F704C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zeinab;
+				TargetAttributes = {
+					5C6663E11D92BF9A003F704C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5C6663F51D92BF9B003F704C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C6663E11D92BF9A003F704C;
+					};
+					5C6664001D92BF9B003F704C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5C6663E11D92BF9A003F704C;
+					};
+				};
+			};
+			buildConfigurationList = 5C6663DD1D92BF9A003F704C /* Build configuration list for PBXProject "AlZakerin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6663D91D92BF9A003F704C;
+			productRefGroup = 5C6663E31D92BF9A003F704C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6663E11D92BF9A003F704C /* AlZakerin */,
+				5C6663F51D92BF9B003F704C /* AlZakerinTests */,
+				5C6664001D92BF9B003F704C /* AlZakerinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6663E01D92BF9A003F704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6663F01D92BF9A003F704C /* LaunchScreen.storyboard in Resources */,
+				5CD706441DA2F0BD0056C2B9 /* good12.jpg in Resources */,
+				5CD7064A1DA386690056C2B9 /* circle_Fotor.jpg in Resources */,
+				5CD706511DA3CF860056C2B9 /* circle.png in Resources */,
+				5CE406E31D9ACECE008303D1 /* Assets.xcassets in Resources */,
+				5C6663EB1D92BF9A003F704C /* Main.storyboard in Resources */,
+				5CD706531DA3D0BD0056C2B9 /* circle222.png in Resources */,
+				5CD706381D9E9DEC0056C2B9 /* candle-light.jpg in Resources */,
+				5CD706481DA383B10056C2B9 /* white stylize2.jpg in Resources */,
+				5CD7063A1DA2E87F0056C2B9 /* good1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663F41D92BF9B003F704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663FF1D92BF9B003F704C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6663DE1D92BF9A003F704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE406D51D9AB7A1008303D1 /* MonthlyViewController.swift in Sources */,
+				5CD7065B1DABD9970056C2B9 /* ZiyaratViewController.swift in Sources */,
+				5CD7066F1DAE9AE70056C2B9 /* DouaaTwoViewController.swift in Sources */,
+				5CE406E51D9B1AB6008303D1 /* Statics.swift in Sources */,
+				5C6663E61D92BF9A003F704C /* AppDelegate.swift in Sources */,
+				5CD706691DAC2AA50056C2B9 /* TaaqibatViewController.swift in Sources */,
+				5CD7065D1DABD9C30056C2B9 /* ZiyaratTableViewCell.swift in Sources */,
+				5CD706711DAE9AFB0056C2B9 /* DouaaTableViewCell.swift in Sources */,
+				5CE406D71D9AB7BA008303D1 /* FavouritsViewController.swift in Sources */,
+				5CD7065F1DABD9E70056C2B9 /* ZiyaratTwoViewController.swift in Sources */,
+				5CE406D91D9AB7CA008303D1 /* SettingsViewController.swift in Sources */,
+				5CD706301D9C2D6F0056C2B9 /* AlAyamViewController.swift in Sources */,
+				5CD7066D1DAE9AD70056C2B9 /* DouaaViewController.swift in Sources */,
+				5CD706571DA68CF50056C2B9 /* PrayerTableViewCell.swift in Sources */,
+				5CD7064C1DA3A6910056C2B9 /* MonajatTableViewCell.swift in Sources */,
+				5CD7066B1DAC2AD90056C2B9 /* TaaqibatTwoViewController.swift in Sources */,
+				5CD706321D9C2D860056C2B9 /* AlAyamTwoViewController.swift in Sources */,
+				5CD706671DAC2A2C0056C2B9 /* TaaqibatTableViewCell.swift in Sources */,
+				5CD706741DB556DD0056C2B9 /* AlyawmTableViewCell.swift in Sources */,
+				5CD706341D9D46600056C2B9 /* MonajatViewController.swift in Sources */,
+				5CD7067D1DB7A62C0056C2B9 /* NSDate+Conversions.swift in Sources */,
+				5CD706761DB556FA0056C2B9 /* AlyawmViewController.swift in Sources */,
+				5CD706631DAC08A30056C2B9 /* SalawatTwoViewController.swift in Sources */,
+				5CD7064F1DA3B1360056C2B9 /* MonajatTwoViewController.swift in Sources */,
+				5CD706651DAC08B70056C2B9 /* SalawatTableViewCell.swift in Sources */,
+				5CD706781DB5571D0056C2B9 /* AlyawmTwoViewController.swift in Sources */,
+				5CD706611DAC088F0056C2B9 /* SalawatViewController.swift in Sources */,
+				5CD706591DAA88190056C2B9 /* AlAyamTableViewCell.swift in Sources */,
+				5CE406D31D9AB780008303D1 /* PrayersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663F21D92BF9B003F704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6663FB1D92BF9B003F704C /* AlZakerinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6663FD1D92BF9B003F704C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6664061D92BF9B003F704C /* AlZakerinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6663F81D92BF9B003F704C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6663E11D92BF9A003F704C /* AlZakerin */;
+			targetProxy = 5C6663F71D92BF9B003F704C /* PBXContainerItemProxy */;
+		};
+		5C6664031D92BF9B003F704C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6663E11D92BF9A003F704C /* AlZakerin */;
+			targetProxy = 5C6664021D92BF9B003F704C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6663E91D92BF9A003F704C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6663EA1D92BF9A003F704C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C6663EE1D92BF9A003F704C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C6663EF1D92BF9A003F704C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6664081D92BF9B003F704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C6664091D92BF9B003F704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C66640B1D92BF9B003F704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlZakerin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C66640C1D92BF9B003F704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlZakerin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C66640E1D92BF9B003F704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlZakerinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlZakerin.app/AlZakerin";
+			};
+			name = Debug;
+		};
+		5C66640F1D92BF9B003F704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlZakerinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlZakerin.app/AlZakerin";
+			};
+			name = Release;
+		};
+		5C6664111D92BF9B003F704C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlZakerinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlZakerin;
+			};
+			name = Debug;
+		};
+		5C6664121D92BF9B003F704C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlZakerinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YA-Mahdi.AlZakerinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlZakerin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6663DD1D92BF9A003F704C /* Build configuration list for PBXProject "AlZakerin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6664081D92BF9B003F704C /* Debug */,
+				5C6664091D92BF9B003F704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C66640A1D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66640B1D92BF9B003F704C /* Debug */,
+				5C66640C1D92BF9B003F704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C66640D1D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C66640E1D92BF9B003F704C /* Debug */,
+				5C66640F1D92BF9B003F704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6664101D92BF9B003F704C /* Build configuration list for PBXNativeTarget "AlZakerinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6664111D92BF9B003F704C /* Debug */,
+				5C6664121D92BF9B003F704C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6663DA1D92BF9A003F704C /* Project object */;
+}
