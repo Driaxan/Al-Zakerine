@@ -1,0 +1,6 @@
+framework module Pods_AlZakerin {
+  umbrella header "Pods-AlZakerin-umbrella.h"
+
+  export *
+  module * { export * }
+}
